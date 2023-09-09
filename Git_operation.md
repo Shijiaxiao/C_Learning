@@ -1,5 +1,6 @@
-# SSH: git@github.com:Shijiaxiao/<repository>.git
-It is recommended that every repository include a README, LICENSE, and .gitignore.
+# A Tutorial to Github Repository
+It is recommended that every repository include a **_README_**, **_LICENSE_**, and **_.gitignore_**.
+My repository SSH: git@github.com:Shijiaxiao/<repository>.git
 
 
 
@@ -76,4 +77,10 @@ git remote set-url origin git@github.com:your-username/your-repo.git   # 更改�
 git branch       # 查看本地所有分支
 git branch -r    # 查看远程所有分支
 git branch -a    # 查看所有分支
+```
+
+### What should be added in **_.gitignore_**
+``` zsh
+.DS_Store
+git rm --cached .DS_Store
 ```
